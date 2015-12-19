@@ -1,6 +1,7 @@
 import {Component, ViewEncapsulation} from 'angular2/core';
 import ng2test from 'ng2-cli-test-lib/ng2-cli-test-lib';
 import {TestService, TestService2} from 'ng2-cli-test-lib/ng2-cli-test-lib';
+import PhoenixChannels from "angular2-phoenix-channels";
 
 @Component({
   selector: 'angular-cli-test-app',
