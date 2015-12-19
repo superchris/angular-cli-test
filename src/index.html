@@ -22,7 +22,13 @@
         app: {
           format: 'register',
           defaultExtension: 'js'
+        },
+        'ng2-cli-test-lib': {
+          defaultExtension: 'js'
         }
+      },
+      map: {
+        'ng2-cli-test-lib': 'node_modules/ng2-cli-test-lib'
       }
     });
     System.import('app.js').then(null, console.error.bind(console));
